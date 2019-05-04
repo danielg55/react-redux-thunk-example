@@ -3,7 +3,9 @@
 First run ```npm install```.
 Then you can run ```npm start```, and you will have the app running on http://localhost:3000.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To configure the address of the remote server that you are trying to access, you can configure the "proxy" property in the package.json file. You can also just change the fetch function in the remote action, to address the desired server.
+
+In this example I set up a simple http server with flask.
 
 ## Available Scripts
 
